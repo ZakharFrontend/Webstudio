@@ -233,3 +233,36 @@ p {
     line-height: 1.71;
     letter-spacing: 0.42px;
 }
+
+.button-item {
+    color: var(--h2h3text-color);
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.48px;
+}
+
+.button:hover {
+    color: var(--background12text-color);
+    background-color: var(--accent-color);
+}
+
+.allaboutus-title {
+    color: var(--h2h3text-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2.00;
+    letter-spacing: 1.08px;
+}
+
+.allaboutus-text {
+    color: var(--text-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.87;
+    letter-spacing: 0.48px;
+}

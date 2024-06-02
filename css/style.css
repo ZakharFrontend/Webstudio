@@ -29,6 +29,10 @@ ul {
     margin: 0;
     padding: 0;
 	display: flex;
+}
+
+.us-list{
+	display: flex;
 	flex-wrap: wrap;
 }
 

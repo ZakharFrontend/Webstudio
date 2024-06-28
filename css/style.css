@@ -45,18 +45,49 @@ p {
     padding: 0;
 }
 
-
 /* index.html */
 .hero {
     background-color: var(--footer-background);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
+.advantages-section{
+    padding-top: 94px;
+}
+.doing-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
 
 .team-section {
     background-color: var(--sectionourteam-background);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .footer {
     background-color: var(--footer-background);
+}
+
+.header> .container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 344px
+}
+
+.header-link{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
 }
 
 .nav-link {
@@ -70,6 +101,11 @@ p {
 
 .active {
     color: var(--accent-color);
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .nav-link:hover,
@@ -164,6 +200,10 @@ p {
     letter-spacing: 1.08px;
 }
 
+.doing-item{
+    margin-right: 30px;
+}
+
 .team-title {
     color: var(--h2h3text-color);
     text-align: center;
@@ -192,6 +232,10 @@ p {
     font-weight: 400;
     line-height: 1.18;
     letter-spacing: 0.48px;
+}
+
+.team-item{
+    margin-right: 30px;
 }
 
 
